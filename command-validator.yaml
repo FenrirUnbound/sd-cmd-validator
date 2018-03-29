@@ -1,0 +1,9 @@
+namespace: FenrirUnbound
+name: sd-cmd-validator
+version: '1.0'
+description: |
+  Simple sd-cmd for validating your own sd-cmd
+maintainer: aeneascorrupt@gmail.com
+format: binary
+binary:
+  file: ./sdc-wrapper.sh

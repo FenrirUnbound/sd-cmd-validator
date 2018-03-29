@@ -1,0 +1,16 @@
+shared:
+  image: node:8
+
+jobs:
+  pr:
+    requires:
+    - ~pr
+    - ~commit
+    steps:
+    - install: npm i -g screwdriver-command-validator
+    - validate: command-validate -f ./command-validator.yaml
+  main:
+    requires:
+    - pr
+    steps:
+    - publish: sd-cmd publish -f ./command-validator.yaml
