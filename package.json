@@ -1,0 +1,23 @@
+{
+  "name": "fenrirunbound-sd-cmd-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenrirUnbound/sd-cmd-validator.git"
+  },
+  "author": "Darren M",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FenrirUnbound/sd-cmd-validator/issues"
+  },
+  "homepage": "https://github.com/FenrirUnbound/sd-cmd-validator#readme",
+  "dependencies": {
+    "screwdriver-command-validator": "^1.0.3"
+  }
+}
